@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Команди Git</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    .command-group {
+      margin-bottom: 20px;
+    }
+    .command-group h2 {
+      margin-bottom: 10px;
+    }
+    .command {
+      background-color: #f0f0f0;
+      padding: 5px 10px;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Команди Git</h1>
+
+  <div class="command-group">
+    <h2>Створення репозиторію</h2>
+    <p class="command">git init [назва_проекту]</p>
+    <p class="command">git clone [URL]</p>
+  </div>
+
+  <div class="command-group">
+    <h2>Робота з гілками</h2>
+    <p class="command">git branch</p>
+    <p class="command">git branch -av</p>
+    <p class="command">git checkout [назва_гілки]</p>
+    <p class="command">git branch [нова_гілка]</p>
+    <p class="command">git branch -d [назва_гілки]</p>
+    <p class="command">git checkout [гілка_b]</p>
+    <p class="command">git merge [гілка_a]</p>
+    <p class="command">git tag [тег]</p>
+  </div>
+
+  <div class="command-group">
+    <h2>Внесення змін</h2>
+    <p class="command">git add [файл]</p>
+    <p class="command">git add .</p>
+    <p class="command">git commit -m "[повідомлення] "</p>
+    <p class="command">git commit -am "[повідомлення]"</p>
+    <p class="command">git reset [файл]</p>
+    <p class="command">git reset --hard</p>
+  </div>
+
+  <div class="command-group">
+    <h2>Синхронізація</h2>
+    <p class="command">git fetch</p>
+    <p class="command">git pull</p>
+    <p class="command">git pull --rebase</p>
+    <p class="command">git push</p>
+  </div>
+
+  <div class="command-group">
+    <h2>Спостереження за репозиторієм</h2>
+    <p class="command">git status</p>
+    <p class="command">git diff</p>
+    <p class="command">git diff --cached</p>
+    <p class="command">git diff HEAD</p>
+    <p class="command">git diff [commit1] [commit2]</p>
+    <p class="command">git blame [файл]</p>
+    <p class="command">git show [commit]:[файл]</p>
+    <p class="command">git log</p>
+    <p class="command">git log -p [файл/директорія]</p>
+  </div>
+
+  <div class="command-group">
+    <h2>Наостанок</h2>
+    <p class="command">git help [команда]</p>
+    <p class="command">Перегляньте <a href="https://training.github.com/">офіційні навчальні матеріали GitHub</a>.</p>
+  </div>
+
+</body>
+</html>
